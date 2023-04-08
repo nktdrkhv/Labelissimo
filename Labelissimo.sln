@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labelissimo", "src\Labelissimo.csproj", "{1C31C706-B68D-4470-AE02-1E1F4B592B1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{96F098AF-CAF9-4322-B400-8B950641A9FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorDocument", "examples\MirrorDocument\MirrorDocument.csproj", "{B8F31A86-BA77-4127-94F5-30BDE00045DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C31C706-B68D-4470-AE02-1E1F4B592B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C31C706-B68D-4470-AE02-1E1F4B592B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C31C706-B68D-4470-AE02-1E1F4B592B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C31C706-B68D-4470-AE02-1E1F4B592B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F31A86-BA77-4127-94F5-30BDE00045DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F31A86-BA77-4127-94F5-30BDE00045DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F31A86-BA77-4127-94F5-30BDE00045DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F31A86-BA77-4127-94F5-30BDE00045DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8F31A86-BA77-4127-94F5-30BDE00045DB} = {96F098AF-CAF9-4322-B400-8B950641A9FC}
+	EndGlobalSection
+EndGlobal
